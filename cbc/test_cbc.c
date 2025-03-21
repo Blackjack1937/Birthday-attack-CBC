@@ -42,9 +42,9 @@ int main() {
 
     // check if correct
     if (memcmp(plaintext, decrypted, sizeof(plaintext)) == 0) {
-        printf("✅ CBC encryption and decryption are correct!\n");
+        printf("CBC encryption and decryption are correct!\n");
     } else {
-        printf("❌ CBC decryption failed!\n");
+        printf("CBC decryption failed!\n");
     }
 
     return 0;
