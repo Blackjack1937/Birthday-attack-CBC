@@ -4,7 +4,7 @@ This project implements CBC encryption using SPECK block cipher variants and dem
 
 ## 🔧 Compilation
 
-To compile the tests, use the `Makefile` with a specified block size:
+To compile the tests, use the `Makefile` with a specified block size: (Always make clean before choosing block size !)
 
 ```bash
 make BLOCKSIZE=32   # Options: 32, 48, or 64
