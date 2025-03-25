@@ -46,4 +46,4 @@ To remove compiled files:
 make clean
 ```
 
-Note: Default block size is 32. You can change it at any time by rerunning make with a new BLOCKSIZE value.
+Note: Default block size is 32. It's possible to change it at any time by rerunning make with a new BLOCKSIZE value.
